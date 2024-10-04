@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cream dark:bg-gray-900 text-navy dark:text-cream;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content-wrapper {
+  @apply bg-cream dark:bg-gray-900 min-h-screen pt-16;
+}
