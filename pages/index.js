@@ -18,10 +18,10 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            日本酒の旅を発見しよう
+           自分好みの日本酒を見つけよう
           </motion.h1>
           
-          <motion.p 
+        {/*  <motion.p 
             className="mt-3 text-xl text-gray-700 dark:text-gray-300 sm:mt-5 md:mt-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -30,7 +30,7 @@ export default function Home() {
             日本の米から作られるお酒の静かな探索に出かけましょう。
             あなたにぴったりの日本酒を見つけ、何世紀も続く伝統に浸りましょう。
           </motion.p>
-          
+           */}
           <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,7 @@ export default function Home() {
             >
               <Link href="/test">
                 <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-burgundy hover:bg-burgundy-light md:py-4 md:text-lg md:px-10 transition duration-300">
-                  旅を始める
+                  診断を始める
                 </a>
               </Link>
             </motion.div>
