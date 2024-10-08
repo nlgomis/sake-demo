@@ -26,13 +26,13 @@ export default function Test() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-12">
       <Head>
-        <title>Sake Discovery Quiz</title>
+        <title>日本酒発見クイズ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="container mx-auto px-4">
         <h1 className="text-4xl font-serif text-center mb-8 text-gray-800 dark:text-gray-200">
-          Discover Your Sake
+          あなたの日本酒を見つけよう
         </h1>
         <ProgressBar current={currentQuestion + 1} total={questions.length} />
         <Question

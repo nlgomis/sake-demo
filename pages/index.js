@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
-        <title>Sake Discovery - Find Your Perfect Sake</title>
+        <title>酒発見 - あなたの完璧な日本酒を見つけよう</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -18,7 +18,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Discover Your Sake Journey
+            日本酒の旅を発見しよう
           </motion.h1>
           
           <motion.p 
@@ -27,8 +27,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Embark on a tranquil exploration of Japanese rice wine. 
-            Find your perfect match and immerse yourself in centuries of tradition.
+            日本の米から作られるお酒の静かな探索に出かけましょう。
+            あなたにぴったりの日本酒を見つけ、何世紀も続く伝統に浸りましょう。
           </motion.p>
           
           <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -39,7 +39,7 @@ export default function Home() {
             >
               <Link href="/test">
                 <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-burgundy hover:bg-burgundy-light md:py-4 md:text-lg md:px-10 transition duration-300">
-                  Start Your Journey
+                  旅を始める
                 </a>
               </Link>
             </motion.div>
@@ -50,7 +50,7 @@ export default function Home() {
             >
               <Link href="/intro">
                 <a className="w-full flex items-center justify-center px-8 py-3 border border-navy dark:border-cream text-base font-medium rounded-md text-navy dark:text-cream bg-transparent hover:bg-navy hover:text-cream dark:hover:bg-cream dark:hover:text-navy md:py-4 md:text-lg md:px-10 transition duration-300">
-                  Learn About Sake
+                  日本酒について学ぶ
                 </a>
               </Link>
             </motion.div>
@@ -64,7 +64,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.8 }}
       >
-        <p>© 2023 Sake Discovery. All rights reserved.</p>
+        <p>© 2023 酒発見. All rights reserved.</p>
       </motion.footer>
     </div>
   );

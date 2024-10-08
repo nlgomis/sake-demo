@@ -1,37 +1,37 @@
 const questions = [
   {
-    text: "What's your preferred flavor intensity?",
+    text: "好みの風味の強さは？",
     options: [
-      { text: "Light and delicate", value: "light" },
-      { text: "Rich and bold", value: "bold" }
+      { text: "軽くて繊細", value: "light" },
+      { text: "濃厚で力強い", value: "bold" }
     ]
   },
   {
-    text: "Do you prefer dry or sweet tastes?",
+    text: "辛口と甘口どちらが好みですか？",
     options: [
-      { text: "Dry", value: "dry" },
-      { text: "Sweet", value: "sweet" }
+      { text: "辛口", value: "dry" },
+      { text: "甘口", value: "sweet" }
     ]
   },
   {
-    text: "How do you feel about fruity flavors?",
+    text: "フルーティーな味わいについてどう思いますか？",
     options: [
-      { text: "Love them", value: "fruity" },
-      { text: "Prefer savory", value: "savory" }
+      { text: "大好き", value: "fruity" },
+      { text: "塩味の方が好き", value: "savory" }
     ]
   },
   {
-    text: "Do you enjoy trying new and unique flavors?",
+    text: "新しくてユニークな味を試すのは好きですか？",
     options: [
-      { text: "Yes, I'm adventurous", value: "adventurous" },
-      { text: "No, I prefer traditional", value: "traditional" }
+      { text: "はい、冒険好きです", value: "adventurous" },
+      { text: "いいえ、伝統的な味が好みです", value: "traditional" }
     ]
   },
   {
-    text: "What's your ideal serving temperature?",
+    text: "理想的な提供温度は？",
     options: [
-      { text: "Chilled", value: "chilled" },
-      { text: "Room temperature", value: "room" }
+      { text: "冷やして", value: "chilled" },
+      { text: "常温", value: "room" }
     ]
   }
 ]
