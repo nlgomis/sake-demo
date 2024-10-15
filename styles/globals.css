@@ -1,12 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-background: #EDE9DE;
+  --color-nav-background: #00053A;
+  --color-primary: #800020;
+  --color-secondary: #FFD700;
+  --color-accent: #00053A;
+}
 
 body {
-  @apply bg-cream dark:bg-gray-900 text-navy dark:text-cream;
+  @apply bg-background text-primary;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.content-wrapper {
-  @apply bg-cream dark:bg-gray-900 min-h-screen pt-16;
+.dark {
+  --color-background: #00053A;
+  --color-nav-background: #EDE9DE;
+  --color-primary: #EDE9DE;
+  --color-secondary: #FFD700;
+  --color-accent: #800020;
 }
+
+.content-wrapper {
+  @apply pt-16; /* Add top padding to account for fixed navigation */
+}
+
+/* Add any other global styles here */

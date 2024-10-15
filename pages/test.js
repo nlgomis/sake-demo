@@ -24,14 +24,14 @@ export default function Test() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-12">
+    <div className="min-h-screen bg-background text-primary py-12">
       <Head>
         <title>日本酒発見クイズ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="container mx-auto px-4">
-        <h1 className="text-4xl font-serif text-center mb-8 text-gray-800 dark:text-gray-200">
+        <h1 className="text-4xl font-serif text-center mb-8 text-primary">
           あなたの日本酒を見つけよう
         </h1>
         <ProgressBar current={currentQuestion + 1} total={questions.length} />
